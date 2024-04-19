@@ -1,0 +1,19 @@
+.tic-box-container {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid;
+}
+
+.tic-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.tic-box {
+  height: 100px;
+  width: 100%;
+  border: 1px solid;
+  cursor: pointer;
+}
